@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // ⚠️ REMPLACE CES 4 VALEURS PAR LES TIENNES ENTRE LES GUILLEMETS
-const REDIS_URL = 'redis-cli --tls -u redis://default:AYvOAAIncDI4MTg2YTg1ODRmNDI0ZTcwYTgyOWJkZWZlN2VmZmE5Y3AyMzU3OTA@honest-osprey-35790.upstash.io:6379'; 
+const REDIS_URL = 'redis://default:AYvOAAIncDI4MTg2YTg1ODRmNDI0ZTcwYTgyOWJkZWZlN2VmZmE5Y3AyMzU3OTA@honest-osprey-35790.upstash.io:6379'; 
 const FB_PIXEL_ID = 'TON_PIXEL_ID';
 const FB_TOKEN = 'TON_TOKEN_CAPI';
 const BINOM_URL = 'https://ton-tracker.binom.org';
